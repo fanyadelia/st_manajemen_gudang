@@ -321,3 +321,9 @@ elif menu == "📊 Lihat Jumlah Barang":
 
     with col2:
         st.metric("📊 Total Seluruh Stok", total)
+        
+# Tombol Reset
+    st.divider()
+    if st.button("Reset Sistem / Mulai dari Awal"):
+        st.session_state.root = None
+        st.rerun()
