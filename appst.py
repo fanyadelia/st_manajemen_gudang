@@ -173,7 +173,6 @@ gudang = st.session_state.gudang
 
 # TITLE
 st.title("📦 Sistem Manajemen Gudang")
-st.subheader("🗂️ Doubly Linked List")
 
 # MENU
 menu = st.sidebar.selectbox(
